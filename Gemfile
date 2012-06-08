@@ -14,6 +14,8 @@ end
 group :test do
   gem 'rspec', '~> 2.8'
   gem 'webrat', '0.7.1'
+  gem 'guard-spork', '0.3.2'
+  gem 'spork', '0.9.0'
 end
 
 group :production do
