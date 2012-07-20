@@ -4,7 +4,7 @@
 	
 	<% if current_user.admin? %>
 	|
-    <%= link_to "delete", user, :method => :delete, 
-    							:onclick => "return confirm('Are you sure?')", 
+    <%= button_to "delete", user, :onclick => "return confirm('Are you sure?')",
+    							:method => :delete, 
                                 :title => "Delete #{user.name}" %>
 	<% end %>

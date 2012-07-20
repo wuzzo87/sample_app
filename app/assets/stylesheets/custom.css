@@ -189,5 +189,11 @@ ul.users {
 
 ul.users li {
 	list-style: none;
+	padding-right: 350px;
+}
+
+form.button_to {
+	padding-top: 12px;
+	float:right;
 }
 }
